@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T11:38:09.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="oFPR3eRJL2wgJuni3sgz" version="15.9.6" type="github"><diagram id="N8Edi52NSmTYdyOakT1O" name="Page-1">zZVNc4MgEEB/jcfOCDQfvdYkbQ89eeiZwkaYoBjEaPrriwU1jpOZ9tBJLg6+XRZ47GhEkrx9MbQU75qDinDM24hsIoyXeOGeHTh7sFgHkBnJPUIjSOUXBBgHWksO1STRaq2sLKeQ6aIAZieMGqObadpeq+mqJc1gBlJG1Zx+SG6Fp2u8GvkryEz0K6Plk4/ktE8OJ6kE5bq5QGQbkcRobf0obxNQnbvei5+3uxIdNmagsL+ZYG1aabyThw1khTjuOW/JQ6hyoqoOBxZA+fbU1fS7tudehdF1waGrFkfkuRHSQlpS1kUbd/eOCZsr94bcMNQFY6G9umE0aHDtAzoHa84uJUxYBXGhc3qPzXgNqGfi4gqWgdFw89lQeJTjBsHPH1zhmSuW88Q1/L2ZQvGtVZGZqk+l2SFxXu6ur9D61rYeZ7YqONZQMHjj92ZrsPAPttzr+Dn8iV38U8j2Gw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-14T12:06:01.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="wcB6gnZ5Taz3fbyox2lH" version="15.9.6" type="github">
+  <diagram id="N8Edi52NSmTYdyOakT1O" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S61cnKSq_L1cPFYxwROf-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ttSso2FikDegnhqfddx3-1" value="headEvent&lt;br&gt;userId string&lt;br&gt;timeStamp number&lt;br&gt;requireId number" style="rounded=0;whiteSpace=wrap;html=1;" parent="S61cnKSq_L1cPFYxwROf-4" vertex="1">
+          <mxGeometry x="80" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ttSso2FikDegnhqfddx3-2" value="cmdCode number" style="rounded=0;whiteSpace=wrap;html=1;" parent="S61cnKSq_L1cPFYxwROf-4" vertex="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ttSso2FikDegnhqfddx3-3" value="blockCount number" style="rounded=0;whiteSpace=wrap;html=1;" parent="S61cnKSq_L1cPFYxwROf-4" vertex="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ttSso2FikDegnhqfddx3-4" value="sequenceId number" style="rounded=0;whiteSpace=wrap;html=1;" parent="S61cnKSq_L1cPFYxwROf-4" vertex="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-1" value="body string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-5" value="gudprequire&lt;br&gt;getTotalArray&lt;br&gt;getHeadArray&lt;br&gt;getBodyArray" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="200" y="130" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-8" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-9" value="grequire" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="354" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-10" value="gevent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
