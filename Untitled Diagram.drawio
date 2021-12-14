@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T12:34:43.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Otmhi4Qj6tvXWiUdZqz7" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T12:35:26.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="COTHu_gKN1ST3ASCEH73" version="15.9.6" type="github">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="S61cnKSq_L1cPFYxwROf-36" value="gUdpResponseArray&lt;br&gt;setTotalArray(UintArray)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
           <mxGeometry x="526" y="475" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-40" value="enum CmdCode {}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="26" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S61cnKSq_L1cPFYxwROf-41" value="enum ReturnCode {}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+          <mxGeometry x="26" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
