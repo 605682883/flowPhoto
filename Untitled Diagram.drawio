@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T04:54:53.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="WpoDe82I953UzLPY1tE9" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T06:42:41.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="woM0P-tAKBXVJWIp1Diw" version="15.9.6" type="github">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="Page-1">
     <mxGraphModel dx="1874" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,13 +37,13 @@
         <mxCell id="S61cnKSq_L1cPFYxwROf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S61cnKSq_L1cPFYxwROf-4" source="S61cnKSq_L1cPFYxwROf-25" target="S61cnKSq_L1cPFYxwROf-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S61cnKSq_L1cPFYxwROf-25" value="&lt;span&gt;gUdpRequire&lt;br&gt;cmdCode number&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+        <mxCell id="S61cnKSq_L1cPFYxwROf-25" value="&lt;span&gt;gUdpRequire&lt;br&gt;cmdCode number&lt;br&gt;setcmdCode&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
           <mxGeometry x="216" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S61cnKSq_L1cPFYxwROf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S61cnKSq_L1cPFYxwROf-4" source="S61cnKSq_L1cPFYxwROf-27" target="S61cnKSq_L1cPFYxwROf-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S61cnKSq_L1cPFYxwROf-27" value="&lt;span&gt;gUdpResponse&lt;br&gt;returnCode number&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
+        <mxCell id="S61cnKSq_L1cPFYxwROf-27" value="&lt;span&gt;gUdpResponse&lt;br&gt;returnCode number&lt;br&gt;getreturncode&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
           <mxGeometry x="376" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S61cnKSq_L1cPFYxwROf-31" value="gUdpRequireArray&lt;br&gt;getTotalArray()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S61cnKSq_L1cPFYxwROf-4">
