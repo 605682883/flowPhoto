@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T09:00:27.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QXcbwux5ElCVegzBWWew" version="16.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-29T09:04:00.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_i_vEhAWV4V2q1A8E7fe" version="16.0.3" type="github" pages="5">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -521,6 +521,44 @@
         </mxCell>
         <mxCell id="ROtUfGDOC4noyUNcjfb_-49" value="工具类（组件）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ROtUfGDOC4noyUNcjfb_-45">
           <mxGeometry x="710" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROtUfGDOC4noyUNcjfb_-50" value="场景加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ROtUfGDOC4noyUNcjfb_-45">
+          <mxGeometry x="900" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8Dnp_aQ2stGu-K-vxkin" name="整体流程">
+    <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-0" />
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-1" parent="km_DzzxCz_F3UNdbu2mY-0" />
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="km_DzzxCz_F3UNdbu2mY-1" source="km_DzzxCz_F3UNdbu2mY-2" target="km_DzzxCz_F3UNdbu2mY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-2" value="加载全局初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="km_DzzxCz_F3UNdbu2mY-1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="km_DzzxCz_F3UNdbu2mY-1" source="km_DzzxCz_F3UNdbu2mY-3" target="km_DzzxCz_F3UNdbu2mY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-3" value="加载登录场景（销毁）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="km_DzzxCz_F3UNdbu2mY-1">
+          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="km_DzzxCz_F3UNdbu2mY-1" source="km_DzzxCz_F3UNdbu2mY-5" target="km_DzzxCz_F3UNdbu2mY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-5" value="打开游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="km_DzzxCz_F3UNdbu2mY-1">
+          <mxGeometry x="350" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="km_DzzxCz_F3UNdbu2mY-1" source="km_DzzxCz_F3UNdbu2mY-8" target="km_DzzxCz_F3UNdbu2mY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-8" value="加载主界面（缓存）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="km_DzzxCz_F3UNdbu2mY-1">
+          <mxGeometry x="230" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_DzzxCz_F3UNdbu2mY-10" value="加载战斗界面（缓存）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="km_DzzxCz_F3UNdbu2mY-1">
+          <mxGeometry x="430" y="555" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
