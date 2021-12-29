@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:54:10.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="WgCaid5BAJDWW-ittc2Y" version="16.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:54:43.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bF5H0Vl8C4pB1Ghfpt0B" version="16.0.3" type="github" pages="4">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -351,6 +351,54 @@
         </mxCell>
         <mxCell id="VRu17BDMSxggvTzOFBA1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="B8BxqjbGdovBXdBG1G88-1" source="VRu17BDMSxggvTzOFBA1-52" target="VRu17BDMSxggvTzOFBA1-79">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MTcj8hiLBIaROAGGESCR" name="整体框架">
+    <mxGraphModel dx="1662" dy="-415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Pv_SHk9INIxXl9W76oX5-0" />
+        <mxCell id="Pv_SHk9INIxXl9W76oX5-1" parent="Pv_SHk9INIxXl9W76oX5-0" />
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-0" value="" style="swimlane;startSize=0;" vertex="1" parent="Pv_SHk9INIxXl9W76oX5-1">
+          <mxGeometry x="10" y="1460" width="1430" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-1" value="初始化（全局属性）" style="whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-2" value="玩家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="560" y="643" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-3" value="对手" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="760" y="643" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-4" value="登录场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-5" value="对战场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="1000" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-6" value="主界面场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="610" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-7" value="网络(服务)需要初始化&lt;br&gt;（对象生成字节流发送）&lt;br&gt;（字节流解码成对象返回模块）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="344" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="V9B0evWxgIU4TLW7Hq7K-0" source="V9B0evWxgIU4TLW7Hq7K-1" target="V9B0evWxgIU4TLW7Hq7K-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-9" value="protobuf服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="344" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="V9B0evWxgIU4TLW7Hq7K-0" source="V9B0evWxgIU4TLW7Hq7K-1" target="V9B0evWxgIU4TLW7Hq7K-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V9B0evWxgIU4TLW7Hq7K-11" value="场景适配（组件）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V9B0evWxgIU4TLW7Hq7K-0">
+          <mxGeometry x="690" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
