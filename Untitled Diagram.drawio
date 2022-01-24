@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T06:29:56.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="CoQcgZYjZgY-wIP51v_P" version="16.1.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-24T06:33:18.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fTP4CO9_oYS79IT2ErGo" version="16.1.2" type="github" pages="7">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1662" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,7 +705,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JQUPDre_HmH1wZg30oo1" name="消息队列">
-    <mxGraphModel dx="1662" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1qjDklcxKCLr47f8W91x-0" />
         <mxCell id="1qjDklcxKCLr47f8W91x-1" parent="1qjDklcxKCLr47f8W91x-0" />
@@ -714,6 +714,15 @@
         </mxCell>
         <mxCell id="1qjDklcxKCLr47f8W91x-3" value="事件消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
           <mxGeometry x="315" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1qjDklcxKCLr47f8W91x-5" value="timestream&lt;br&gt;cmd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1qjDklcxKCLr47f8W91x-6" value="cmd&lt;br&gt;pro&lt;br&gt;and" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+          <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1qjDklcxKCLr47f8W91x-7" value="说明：&lt;br style=&quot;font-size: 16px;&quot;&gt;时间&lt;br style=&quot;font-size: 16px;&quot;&gt;指令：技能？攻击？移动？状态？血量？属性变化&lt;br style=&quot;font-size: 16px;&quot;&gt;指令归类：&lt;br style=&quot;font-size: 16px;&quot;&gt;1.属性变化（血量和数学，加速度）&lt;br style=&quot;font-size: 16px;&quot;&gt;2.动画（技能和影响，buff）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+          <mxGeometry x="80" y="560" width="410" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
