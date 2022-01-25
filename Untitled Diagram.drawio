@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T06:33:18.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fTP4CO9_oYS79IT2ErGo" version="16.1.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-25T13:33:27.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fynT5xOqRT0DwNuSN-LO" version="16.1.2" type="github" pages="8">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1662" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -704,6 +704,38 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="Jmaid6Gkjj882yjvDuHB" name="出牌规则">
+    <mxGraphModel dx="569" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-0" />
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-1" parent="fxI9hTPTLoD85Vddsa_f-0" />
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="150" y="510" width="520" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="170" y="535" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="270" y="535" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="370" y="535" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="470" y="535" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="570" y="535" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="180" y="610" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="fxI9hTPTLoD85Vddsa_f-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fxI9hTPTLoD85Vddsa_f-1">
+          <mxGeometry x="180" y="600" width="60" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="JQUPDre_HmH1wZg30oo1" name="消息队列">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -718,11 +750,14 @@
         <mxCell id="1qjDklcxKCLr47f8W91x-5" value="timestream&lt;br&gt;cmd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
           <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1qjDklcxKCLr47f8W91x-6" value="cmd&lt;br&gt;pro&lt;br&gt;and" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+        <mxCell id="1qjDklcxKCLr47f8W91x-6" value="cmd&lt;br&gt;property&lt;br&gt;action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
           <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1qjDklcxKCLr47f8W91x-7" value="说明：&lt;br style=&quot;font-size: 16px;&quot;&gt;时间&lt;br style=&quot;font-size: 16px;&quot;&gt;指令：技能？攻击？移动？状态？血量？属性变化&lt;br style=&quot;font-size: 16px;&quot;&gt;指令归类：&lt;br style=&quot;font-size: 16px;&quot;&gt;1.属性变化（血量和数学，加速度）&lt;br style=&quot;font-size: 16px;&quot;&gt;2.动画（技能和影响，buff）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+        <mxCell id="1qjDklcxKCLr47f8W91x-7" value="说明：&lt;br style=&quot;font-size: 16px&quot;&gt;时间&lt;br style=&quot;font-size: 16px&quot;&gt;指令：技能？攻击？移动？状态？血量？属性变化&lt;br style=&quot;font-size: 16px&quot;&gt;指令归类：&lt;br style=&quot;font-size: 16px&quot;&gt;1.移动&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;目标位置&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;移动动画&lt;br&gt;2.属性变化（血量和数学，加速度）&lt;br style=&quot;font-size: 16px&quot;&gt;3.动画（技能和影响，buff）&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
           <mxGeometry x="80" y="560" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="1qjDklcxKCLr47f8W91x-8" value="action&lt;br&gt;attack&lt;br&gt;move" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1qjDklcxKCLr47f8W91x-1">
+          <mxGeometry x="320" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
