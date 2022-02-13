@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T10:04:49.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="n8-FSLSSYfX3hnzs4xQs" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-13T10:06:10.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="glMeK7uTpTNLa7eUgxZI" version="16.4.11" type="github">
   <diagram id="NHIDiahe0ucnp6_OUHSf" name="Page-1">
     <mxGraphModel dx="2249" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxRectangle x="1170" y="160" width="60" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-128" value="邀请中心" style="swimlane;align=left;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-127">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-128" value="邀请中心" style="swimlane;align=center;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-127">
           <mxGeometry x="36" y="430" width="365" height="520" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-129" value="当前邀请码：USDR567" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-128">
@@ -660,7 +660,7 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-68" value="认购" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-58">
           <mxGeometry x="88.12" y="127.5" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-480" value="认购逻辑：&lt;br&gt;1.判断私募方案是否开始和没有结束&lt;br&gt;2.判断私募方案是否有足够的可以认购数量&lt;br&gt;3.判断用户的可认购份数（最大最小）是否足够&lt;br&gt;4.换算成币数&lt;br&gt;5.判断用户的余额是否足够&lt;br&gt;6.插入认购记录&lt;br&gt;7.扣除认购所需金额&lt;br&gt;8.计算直推佣金&lt;br&gt;9.计算伞下等级佣金&lt;br&gt;10参数：用户id，方案id，份额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-58">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-480" value="认购逻辑：&lt;br&gt;1.判断私募方案是否开始和没有结束&lt;br&gt;2.判断私募方案是否有足够的可以认购数量&lt;br&gt;3.判断用户的可认购份数（最大最小）是否足够&lt;br&gt;4.换算成币数(往上取整)&lt;br&gt;5.判断用户的余额是否足够&lt;br&gt;6.插入认购记录&lt;br&gt;7.扣除认购所需金额&lt;br&gt;8.计算直推佣金&lt;br&gt;9.计算伞下等级佣金&lt;br&gt;10参数：用户id，方案id，份额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-58">
           <mxGeometry x="8.129999999999995" y="250" width="270" height="160" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SLsPuKTiGorRzgtB97Up-478" source="SLsPuKTiGorRzgtB97Up-48" target="SLsPuKTiGorRzgtB97Up-58">
