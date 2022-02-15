@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T09:05:42.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="EBIxbZ-DbprTtfsmRhjr" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T07:01:03.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="v5-c_dDiHTk4Ci8N2LkL" version="16.5.6" type="github">
   <diagram id="NHIDiahe0ucnp6_OUHSf" name="Page-1">
-    <mxGraphModel dx="2209" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3008" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-358" value="修改保存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SLsPuKTiGorRzgtB97Up-142" vertex="1">
           <mxGeometry x="100" y="150" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-266" value="直推佣金记录" style="swimlane;startSize=23;" parent="SLsPuKTiGorRzgtB97Up-127" vertex="1">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-266" value="直推佣金记录（汇总）" style="swimlane;startSize=23;" parent="SLsPuKTiGorRzgtB97Up-127" vertex="1">
           <mxGeometry x="450" y="370" width="360" height="320" as="geometry">
             <mxRectangle x="450" y="370" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -169,8 +169,8 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-283" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-02&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="SLsPuKTiGorRzgtB97Up-266" vertex="1">
           <mxGeometry x="70" y="120" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-357" value="需求：&lt;br&gt;1.用户ID，邀请时间，存放在邀请记录表&lt;br&gt;2.认购金额临时存储，数据量多，使用附加表存储&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;（没有就插入，有就叠加）&lt;br&gt;3.佣金" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SLsPuKTiGorRzgtB97Up-266" vertex="1">
-          <mxGeometry x="10" y="230" width="280" height="80" as="geometry" />
+        <mxCell id="SLsPuKTiGorRzgtB97Up-357" value="需求：&lt;br&gt;1.用户ID，邀请时间，存放在邀请记录表&lt;br&gt;2.认购金额临时存储，数据量多，使用附加表存储&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;（没有就插入，有就叠加），不是直接查询佣金记录表，&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;查询邀请记录表，然后并接上附加表记录&lt;br&gt;3.佣金" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SLsPuKTiGorRzgtB97Up-266" vertex="1">
+          <mxGeometry x="10" y="225" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-427" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="SLsPuKTiGorRzgtB97Up-266" vertex="1">
           <mxGeometry x="170" y="150" width="70" height="20" as="geometry" />
@@ -211,7 +211,7 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-464" value="直推佣金 100 USDT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SLsPuKTiGorRzgtB97Up-266" vertex="1">
           <mxGeometry x="180" y="34" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-435" value="伞下佣金记录" style="swimlane;" parent="SLsPuKTiGorRzgtB97Up-127" vertex="1">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-435" value="伞下佣金记录（汇总）" style="swimlane;" parent="SLsPuKTiGorRzgtB97Up-127" vertex="1">
           <mxGeometry x="450" y="750" width="360" height="210" as="geometry">
             <mxRectangle x="36" y="830" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -249,18 +249,19 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-469" value="&lt;span style=&quot;&quot;&gt;需求：这里需要判断用户，是否是显示当前标签&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SLsPuKTiGorRzgtB97Up-435" vertex="1">
           <mxGeometry x="40" y="140" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-473" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="SLsPuKTiGorRzgtB97Up-127" source="SLsPuKTiGorRzgtB97Up-470" target="SLsPuKTiGorRzgtB97Up-266" edge="1">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-473" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="SLsPuKTiGorRzgtB97Up-127" source="SLsPuKTiGorRzgtB97Up-470" target="SLsPuKTiGorRzgtB97Up-266" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="163" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SLsPuKTiGorRzgtB97Up-475" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="SLsPuKTiGorRzgtB97Up-127" source="SLsPuKTiGorRzgtB97Up-471" target="SLsPuKTiGorRzgtB97Up-435" edge="1">
+        <mxCell id="SLsPuKTiGorRzgtB97Up-475" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="SLsPuKTiGorRzgtB97Up-127" source="SLsPuKTiGorRzgtB97Up-471" target="SLsPuKTiGorRzgtB97Up-435" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="269" y="730" />
-              <mxPoint x="630" y="730" />
+              <mxPoint x="268" y="630" />
+              <mxPoint x="430" y="630" />
+              <mxPoint x="430" y="855" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -908,7 +909,7 @@
           <mxGeometry x="252.5" y="80" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-478" value="私募模块" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="-850" width="1450" height="1210" as="geometry" />
+          <mxGeometry x="1380" y="-850" width="1530" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-1" value="私募列表" style="swimlane;" parent="SLsPuKTiGorRzgtB97Up-478" vertex="1">
           <mxGeometry x="660" y="70" width="420" height="160" as="geometry" />
@@ -1259,6 +1260,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-67" value="提示" style="swimlane;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-478">
+          <mxGeometry x="1101" y="240" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-69" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额不足，跳转到充值&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="jbxilPhFLKhactDHmja0-67">
+          <mxGeometry x="90" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="jbxilPhFLKhactDHmja0-61" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="70" y="280" width="270" height="20" as="geometry" />
         </mxCell>
@@ -1273,6 +1280,15 @@
         </mxCell>
         <mxCell id="jbxilPhFLKhactDHmja0-65" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="jbxilPhFLKhactDHmja0-61">
           <mxGeometry x="60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-77" value="0.06&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-78" value="0.11-0.06&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="790" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-79" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="820" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
