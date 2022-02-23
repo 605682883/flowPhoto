@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T13:37:25.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="7m58uEmnrwEGnDEujX61" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T08:23:06.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="fI4cdQevayKZOemEB1OT" version="16.5.6" type="github">
   <diagram id="NHIDiahe0ucnp6_OUHSf" name="Page-1">
-    <mxGraphModel dx="3076" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3327" dy="2134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,7 +363,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-477" value="用户模块" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="-850" width="3130" height="2450" as="geometry">
+          <mxGeometry x="-900" y="-850" width="3130" height="2880" as="geometry">
             <mxRectangle x="-900" y="-850" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -572,7 +572,7 @@
           <mxGeometry x="116" y="142.5" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="B6wU2y8tkBTwgPNzxgIY-24" value="注册" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;flipV=0;flipH=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="SLsPuKTiGorRzgtB97Up-477" vertex="1">
-          <mxGeometry x="70" y="50" width="640" height="1440" as="geometry">
+          <mxGeometry x="70" y="50" width="640" height="335" as="geometry">
             <mxRectangle x="70" y="50" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -584,9 +584,9 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-336" value="需求描述：&lt;br&gt;1.邮箱注册&lt;br&gt;2.邀请码必填，从别人推荐URL进来的，&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;自动填充邀请码并且邀请码不能修改，&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;不是使用推荐URL进来的，需要手工添加邀请码&lt;br&gt;3.验证码类型1&lt;br&gt;4.密码简单判断" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B6wU2y8tkBTwgPNzxgIY-25" vertex="1">
           <mxGeometry x="90" y="10" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="B6wU2y8tkBTwgPNzxgIY-26" value="UI" style="swimlane;startSize=20;horizontal=0;" parent="B6wU2y8tkBTwgPNzxgIY-24" vertex="1" collapsed="1">
-          <mxGeometry y="40" width="640" height="20" as="geometry">
-            <mxRectangle y="40" width="545.25" height="255" as="alternateBounds" />
+        <mxCell id="B6wU2y8tkBTwgPNzxgIY-26" value="UI" style="swimlane;startSize=20;horizontal=0;" parent="B6wU2y8tkBTwgPNzxgIY-24" vertex="1">
+          <mxGeometry y="40" width="640" height="255" as="geometry">
+            <mxRectangle y="40" width="640" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-155" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="B6wU2y8tkBTwgPNzxgIY-26" vertex="1">
@@ -622,9 +622,9 @@
         <mxCell id="SLsPuKTiGorRzgtB97Up-421" value="登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="B6wU2y8tkBTwgPNzxgIY-26" vertex="1">
           <mxGeometry x="195.25" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6wU2y8tkBTwgPNzxgIY-27" value="实现" style="swimlane;startSize=20;horizontal=0;" parent="B6wU2y8tkBTwgPNzxgIY-24" vertex="1">
-          <mxGeometry y="60" width="640" height="1360" as="geometry">
-            <mxRectangle y="60" width="640" height="20" as="alternateBounds" />
+        <mxCell id="B6wU2y8tkBTwgPNzxgIY-27" value="实现" style="swimlane;startSize=20;horizontal=0;" parent="B6wU2y8tkBTwgPNzxgIY-24" vertex="1" collapsed="1">
+          <mxGeometry y="295" width="640" height="20" as="geometry">
+            <mxRectangle y="60" width="640" height="1360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B6wU2y8tkBTwgPNzxgIY-129" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="B6wU2y8tkBTwgPNzxgIY-27" vertex="1">
@@ -780,7 +780,7 @@
           <mxGeometry x="46" y="38.5" width="129.5" height="26.5" as="geometry" />
         </mxCell>
         <mxCell id="B6wU2y8tkBTwgPNzxgIY-62" value="数据" style="swimlane;startSize=20;horizontal=0;" parent="B6wU2y8tkBTwgPNzxgIY-24" vertex="1" collapsed="1">
-          <mxGeometry y="1420" width="640" height="20" as="geometry">
+          <mxGeometry y="315" width="640" height="20" as="geometry">
             <mxRectangle y="80" width="545.25" height="380" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1324,6 +1324,11 @@
         </mxCell>
         <mxCell id="jbxilPhFLKhactDHmja0-419" value="88888" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#E51F00;" vertex="1" parent="jbxilPhFLKhactDHmja0-411">
           <mxGeometry x="135" y="50" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jbxilPhFLKhactDHmja0-448" value="归集" style="swimlane;fontColor=#000000;" vertex="1" parent="SLsPuKTiGorRzgtB97Up-477">
+          <mxGeometry x="780" y="2030" width="930" height="850" as="geometry">
+            <mxRectangle x="780" y="2030" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SLsPuKTiGorRzgtB97Up-478" value="私募模块" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1380" y="-850" width="1530" height="1210" as="geometry" />
