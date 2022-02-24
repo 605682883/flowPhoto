@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T08:10:52.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tFUi6d9zbL_wCOHsLOKl" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T08:12:29.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HcL4SmisUDrSKOEtTwdQ" version="16.6.2" type="github">
   <diagram id="8THydA5MkrtF2cmSmjin" name="Page-1">
-    <mxGraphModel dx="3197" dy="4724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="4817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -514,9 +514,6 @@
         </mxCell>
         <mxCell id="IvSLJujTTu-2GF4I8JXL-10" value="注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
           <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-11" value="忘记密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
-          <mxGeometry x="190.5" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IvSLJujTTu-2GF4I8JXL-12" value="注册" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-130" vertex="1">
           <mxGeometry x="488.5" y="451.87" width="281" height="270" as="geometry" />
