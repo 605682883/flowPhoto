@@ -1,586 +1,585 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T11:32:54.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="TNJ_JcEnLki7irNKjt0n" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T08:10:52.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tFUi6d9zbL_wCOHsLOKl" version="16.6.2" type="github">
   <diagram id="8THydA5MkrtF2cmSmjin" name="Page-1">
-    <mxGraphModel dx="2605" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="4724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-4" value="登录" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-854" width="281" height="270" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-126" value="功能" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-790" width="1700" height="1530" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-75" value="购买功能" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-126" vertex="1">
+          <mxGeometry x="140" y="40" width="296.87" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-7" value="密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="35" y="125" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-8" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-9" value="登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="100.5" y="190" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-10" value="注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-11" value="忘记密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry x="190.5" y="150" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-12" value="注册" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="290" y="-854" width="281" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-15" value="密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="35" y="125" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-17" value="注册" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="100.5" y="190" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-18" value="登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-215" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-10" target="IvSLJujTTu-2GF4I8JXL-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-18" target="IvSLJujTTu-2GF4I8JXL-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-22" value="个人信息" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-460" width="281" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-26" value="退出登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="100.5" y="210" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-27" value="修改密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF33FF;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="110.5" y="240" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-46" value="币种" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="70.5" y="80" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-47" value="余额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="175.5" y="80" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-48" value="USDT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="70.5" y="107.5" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-49" value="100" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="175.5" y="107.5" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-50" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-22">
-          <mxGeometry x="55" y="165" width="171" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-51" value="充值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-50">
-          <mxGeometry width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-52" value="提现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-50">
-          <mxGeometry x="91" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-35" value="修改密码" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-460" width="281" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-38" value="原密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="35" y="125" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-39" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-40" value="确定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="100.5" y="220" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="90" y="160" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-44" value="新密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-35">
-          <mxGeometry x="35" y="165" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-54" value="提现" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="165.5" y="200" width="310" height="266.25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-55" value="地址" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="40" y="80" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-56" value="提现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="115" y="201.25" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-57" value="ghkuhihhuklgyjdsht" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="95" y="80" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-58" value="提现数量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="40" y="110" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="95" y="171.25" width="95" height="22.5" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-60" value="验证码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="40" y="172.5" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-61" value="发送" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="205" y="170" width="40" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-62" value="需求：&lt;br&gt;1.验证码类型3" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="40" y="226.25" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-63" value="5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="95" y="108.75" width="100" height="22.5" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-64" value="USDT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="195" y="110" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-65" value="手续费：0.01U" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="140" y="140" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-66" value="到账数量：4.99U" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="30" y="140" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-67" value="(MAX8)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="235" y="110" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-68" value="余额：100U" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry x="40" y="50" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-69" value="充值" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="165.5" y="-110" width="310" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-70" value="地址：hkuhkhkhklhjjsxghguh" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-69">
-          <mxGeometry x="70" y="40" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-71" value="保存二维码到手机" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-69">
-          <mxGeometry x="102.5" y="245" width="105" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-72" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-69">
-          <mxGeometry x="80" y="70" width="150" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-51" target="IvSLJujTTu-2GF4I8JXL-69">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-90" y="-130" />
-              <mxPoint x="321" y="-130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-52" target="IvSLJujTTu-2GF4I8JXL-54">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="50" y="333" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-75" value="购买功能" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="640" y="-290" width="290" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-76" value="余额：1000 USDT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-76" value="余额：1000 USDT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
           <mxGeometry x="60" y="44.370000000000005" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-77" value="周期：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-77" value="数量：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
           <mxGeometry x="61.25" y="86.55000000000001" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-81" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-81" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
           <mxGeometry x="126.87" y="161.87" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-83" value="功能名称：搜索" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
-          <mxGeometry x="61.25" y="64.37" width="100" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-83" value="功能：搜索" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
+          <mxGeometry x="61.25" y="64.37" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-84" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
-          <mxGeometry x="121.25" y="86.55000000000001" width="56.87" height="15.63" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-85" value="&lt;span style=&quot;text-align: left&quot;&gt;1周期=&amp;gt;1USDT=&amp;gt;30天&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
+          <mxGeometry x="78.43999999999988" y="124.37" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-85" value="&lt;span style=&quot;text-align: left&quot;&gt;1周期=&amp;gt;30天&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
-          <mxGeometry x="81.86999999999989" y="124.37" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-150" value="购买记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-150" value="购买记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-75" vertex="1">
           <mxGeometry x="220" y="40" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-87" value="购买记录" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="533.75" y="20" width="502.5" height="190" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-13" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111.25" y="96.10000000000001" as="sourcePoint" />
+            <mxPoint x="211.25" y="96.05" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-88" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-14" value="M" style="resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="WOS99oSeUXOHBTye9fjl-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-15" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="WOS99oSeUXOHBTye9fjl-13">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-16" value="滚动条拖动选择周期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-75">
+          <mxGeometry x="176.87" y="104.37" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-87" value="购买记录" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-126" vertex="1">
+          <mxGeometry x="587.5" y="40" width="502.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-88" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;功能名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-87" vertex="1">
           <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-89" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-96" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-87" vertex="1">
+          <mxGeometry x="446.25" y="80" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-90" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-94" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;搜索&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-87" vertex="1">
+          <mxGeometry x="10" y="80" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-91" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-17" value="&lt;font color=&quot;#000000&quot;&gt;功能使用期限&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="166.25" y="60" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-92" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-18" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-01-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="171.25" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-93" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-92">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-21" value="生效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="336.25" y="80" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-94" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-92">
-          <mxGeometry width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-20" value="状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="336.25" y="60" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-95" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-92">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-31" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;交易&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="10" y="100" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-96" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-32" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-01-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="171.25" y="100" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-33" value="过期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="336.25" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-34" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="382.5" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-35" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="446.25" y="100" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-36" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="382.5" y="100" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-38" value="&lt;font color=&quot;#ff0000&quot;&gt;这里的功能，要判断功能本身是否可以购买&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry x="252.5" y="130" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-111" value="可购买功能列表" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-126" vertex="1">
+          <mxGeometry x="490" y="730" width="502.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-112" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;功能名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-111" vertex="1">
+          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-114" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;单价&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-111" vertex="1">
+          <mxGeometry x="100" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-120" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-111" vertex="1">
           <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-97" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-118" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;搜索&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-111" vertex="1">
+          <mxGeometry x="10" y="80" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-98" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-87">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-119" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-111" vertex="1">
+          <mxGeometry x="85" y="80" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-99" value="当前拥有的功能" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="533.75" y="276.25" width="502.5" height="190" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-60" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
+          <mxGeometry x="370" y="80" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-100" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-152" value="购买记录详情" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-126" vertex="1">
+          <mxGeometry x="700" y="435" width="502.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-101" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-97" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;购买时间&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-152" vertex="1">
+          <mxGeometry x="26" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-102" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-19" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-01-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="16" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-103" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-89" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;数量&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-152" vertex="1">
+          <mxGeometry x="170" y="60" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-104" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-93" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-152" vertex="1">
+          <mxGeometry x="180" y="80" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-105" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-104">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-22" value="增加可用天数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="210" y="60" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-106" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-104">
-          <mxGeometry width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-23" value="30" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="240" y="80" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-107" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-104">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-25" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-02-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="320" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-108" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-26" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-01-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="16" y="100" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-109" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-27" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="180" y="100" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-110" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-99">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-28" value="60" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="240" y="100" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-111" value="所有可购买功能列表" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="200" y="560" width="502.5" height="190" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-29" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2021-04-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="320" y="100" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-112" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-90" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;总金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-152" vertex="1">
+          <mxGeometry x="106" y="60" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-113" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-95" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-152" vertex="1">
+          <mxGeometry x="96" y="80" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-114" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-30" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;200&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="96" y="100" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-115" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-24" value="使用期限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+          <mxGeometry x="335" y="60" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-116" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-117" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-116">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-118" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-116">
-          <mxGeometry width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-119" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-116">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-120" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-121" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-122" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-111">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-123" value="功能详情" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="860" y="555" width="502.5" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-124" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-125" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-126" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-127" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-128" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-129" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-128">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-130" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-128">
-          <mxGeometry width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-131" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-128">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-133" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-134" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-123">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-135" value="使用功能流程" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="450" width="502.5" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-136" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-137" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-138" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-139" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-140" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-141" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-140">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-142" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-140">
-          <mxGeometry width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-143" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-140">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-144" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-145" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-146" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-135">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-147" value="资产" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="-410" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-27" target="IvSLJujTTu-2GF4I8JXL-35">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WOS99oSeUXOHBTye9fjl-126" source="IvSLJujTTu-2GF4I8JXL-96" target="IvSLJujTTu-2GF4I8JXL-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-150" target="IvSLJujTTu-2GF4I8JXL-87">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-39" value="功能详情" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-126">
+          <mxGeometry x="670" y="1140" width="355" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-40" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;购买最大数量&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="134" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-41" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;购买最少数量&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="110" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-44" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;功能描述：(说明，富文本)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="174" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-45" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;功能名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="70" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-46" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;单价&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-56" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;创建时间&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="5" y="154" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-57" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-01-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="70" y="154" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-52" value="购买" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry x="140" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-126" source="IvSLJujTTu-2GF4I8JXL-120" target="WOS99oSeUXOHBTye9fjl-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-126" source="IvSLJujTTu-2GF4I8JXL-150" target="IvSLJujTTu-2GF4I8JXL-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-127" value="钱包" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-2140" width="1990" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-22" value="余额" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-127" vertex="1">
+          <mxGeometry x="396.25" y="70" width="620" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-46" value="币种" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-22" vertex="1">
+          <mxGeometry x="70.5" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-47" value="余额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-22" vertex="1">
+          <mxGeometry x="175.5" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-48" value="USDT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-22" vertex="1">
+          <mxGeometry x="70.5" y="107.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-49" value="100" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-22" vertex="1">
+          <mxGeometry x="175.5" y="107.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-119" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-22">
+          <mxGeometry x="240" y="165" width="171" height="26.55000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-121" value="提现记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-119">
+          <mxGeometry x="91" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-52" value="提现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WOS99oSeUXOHBTye9fjl-119" vertex="1">
+          <mxGeometry y="1.5500000000000114" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-51" value="充值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-22" vertex="1">
+          <mxGeometry x="55" y="165" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-120" value="充值记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-22">
+          <mxGeometry x="150" y="165" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-54" value="提现" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-127" vertex="1">
+          <mxGeometry x="731.75" y="730" width="310" height="266.25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-55" value="地址" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="40" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-56" value="提现" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="115" y="201.25" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-57" value="ghkuhihhuklgyjdsht" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="95" y="80" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-58" value="提现数量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="40" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="95" y="171.25" width="95" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-60" value="验证码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="40" y="172.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-61" value="发送" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="205" y="170" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-62" value="需求：&lt;br&gt;1.验证码类型3" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="40" y="226.25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-63" value="5" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="95" y="108.75" width="100" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-64" value="USDT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="195" y="110" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-65" value="手续费：0.01U" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="140" y="140" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-66" value="到账数量：4.99U" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="30" y="140" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-67" value="(MAX8)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="235" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-68" value="余额：100U" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-54" vertex="1">
+          <mxGeometry x="40" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-69" value="充值" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-127" vertex="1">
+          <mxGeometry x="731.75" y="420" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-70" value="地址：hkuhkhkhklhjjsxghguh" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-69" vertex="1">
+          <mxGeometry x="70" y="40" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-71" value="保存二维码到手机" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-69" vertex="1">
+          <mxGeometry x="102.5" y="245" width="105" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-72" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="IvSLJujTTu-2GF4I8JXL-69" vertex="1">
+          <mxGeometry x="80" y="70" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WOS99oSeUXOHBTye9fjl-127" source="IvSLJujTTu-2GF4I8JXL-51" target="IvSLJujTTu-2GF4I8JXL-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="885" y="-30" />
-              <mxPoint x="785" y="-30" />
+              <mxPoint x="476.25" y="400" />
+              <mxPoint x="887.25" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-152" value="购买记录详情" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="15" width="502.5" height="190" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-166" value="盈亏（暂时不做）" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-127" vertex="1">
+          <mxGeometry x="163.75" y="700" width="502.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-153" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-167" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-154" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-168" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-155" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-169" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-156" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-170" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-157" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-171" value="" style="group" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1" connectable="0">
           <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-158" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-157">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-172" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-171" vertex="1">
           <mxGeometry x="180" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-159" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-157">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-173" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-171" vertex="1">
           <mxGeometry width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-160" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-157">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-174" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-171" vertex="1">
           <mxGeometry x="75" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-161" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-175" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-162" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-176" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-163" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-177" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" parent="IvSLJujTTu-2GF4I8JXL-166" vertex="1">
           <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-120" target="IvSLJujTTu-2GF4I8JXL-123">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-61" value="提现记录" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-127">
+          <mxGeometry x="1176.25" y="150" width="650" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-62" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;提现时间&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-63" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;提现数量&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="100" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-64" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="244" y="70" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-65" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;状态&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="187.5" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-66" value="非UI：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;提币状态：1=待审核 2=审核驳回 3=待二次审核 4=二次审核驳回 5=二次审核通过 6=已转账 7=已到账 8=到账失败" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="10" y="135" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-67" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="100" y="80" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-68" value="提现中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="177.5" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-69" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-61">
+          <mxGeometry x="10" y="80" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-70" value="提现详情" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-127">
+          <mxGeometry x="1280" y="460" width="330" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-71" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;提现时间&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-72" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;到账数量&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-73" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;状态&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="234" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-74" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="80" y="60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-75" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="80" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-76" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;手续费&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="140" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-77" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="90" y="140" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-78" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;到账地址&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-79" value="&lt;span style=&quot;text-align: left&quot;&gt;ghkuhihhuklgyjdsht&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="80" y="170" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-80" value="交易hash" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-81" value="sgdjglejrlgjsdlgjrelggjdklgjlrdjgldj" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="90" y="200" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-82" value="提现中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="80" y="234.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-83" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;备注：&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-70">
+          <mxGeometry x="10" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-109" value="充值记录" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-127">
+          <mxGeometry x="166.25" y="530" width="497.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-111" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;充值金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-109">
+          <mxGeometry x="147.5" y="35" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-112" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;时间&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-109">
+          <mxGeometry x="10" y="35" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-113" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-109">
+          <mxGeometry x="137.5" y="55" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-114" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-02&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-109">
+          <mxGeometry y="55" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-115" value="&lt;font color=&quot;#000000&quot;&gt;hash&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-127">
+          <mxGeometry x="326.25" y="510" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-116" value="xdfjlkdjgldjglkdsf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-127">
+          <mxGeometry x="286.25" y="530" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-127" source="WOS99oSeUXOHBTye9fjl-64" target="WOS99oSeUXOHBTye9fjl-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-96" target="IvSLJujTTu-2GF4I8JXL-152">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-127" source="WOS99oSeUXOHBTye9fjl-120" target="WOS99oSeUXOHBTye9fjl-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586.25" y="460" />
+              <mxPoint x="415.25" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.049;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-127" source="WOS99oSeUXOHBTye9fjl-121" target="WOS99oSeUXOHBTye9fjl-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-166" value="盈亏" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-612.5" y="150" width="502.5" height="190" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WOS99oSeUXOHBTye9fjl-127" source="IvSLJujTTu-2GF4I8JXL-52" target="IvSLJujTTu-2GF4I8JXL-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="300" />
+              <mxPoint x="1062" y="300" />
+              <mxPoint x="1062" y="863" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-167" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-129" value="交易" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="950" width="2060" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-168" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-135" value="使用功能流程" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-129" vertex="1">
+          <mxGeometry x="420" y="100" width="502.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-169" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-84" value="交易记录" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-129">
+          <mxGeometry x="320" y="360" width="830" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-170" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-85" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;时间&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="35" y="60" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-171" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-86" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;数量&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="115" y="60" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-172" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-171">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-89" value="非UI：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; 交易&lt;/span&gt;状态：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="10" y="135" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-173" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-171">
-          <mxGeometry width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-90" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="100" y="80" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-174" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-171">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-92" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2020-02-01&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="10" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-175" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-99" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;手续费&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="190" y="60" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-176" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-100" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="190" y="80" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-177" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-166">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-102" value="&lt;span style=&quot;text-align: left&quot;&gt;ghkuhihhuklgyjdsht&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="245" y="80" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvSLJujTTu-2GF4I8JXL-178" target="IvSLJujTTu-2GF4I8JXL-190">
+        <mxCell id="WOS99oSeUXOHBTye9fjl-101" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;到账地址&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="270" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-104" value="sgdjglejrlgjsdlgjrelggjdklgjlrdjgldj" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="380" y="80" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-103" value="交易hash" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="430" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-105" value="提现中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="585" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-96" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;状态&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="590" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-108" value="点击状态，可以看到具体的状态变更，或者提供按钮查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-84">
+          <mxGeometry x="450" y="115" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WOS99oSeUXOHBTye9fjl-130" value="用户" style="swimlane;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-3100" width="1357" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-4" value="登录" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-130" vertex="1">
+          <mxGeometry x="28.5" y="451.87" width="281" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-7" value="密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="35" y="125" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-8" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-9" value="登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="100.5" y="190" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-10" value="注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-11" value="忘记密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="190.5" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-12" value="注册" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-130" vertex="1">
+          <mxGeometry x="488.5" y="451.87" width="281" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-15" value="密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="35" y="125" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-17" value="注册" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="100.5" y="190" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-18" value="登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-215" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WOS99oSeUXOHBTye9fjl-130" source="IvSLJujTTu-2GF4I8JXL-10" target="IvSLJujTTu-2GF4I8JXL-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-178" value="交易记录" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="820" width="502.5" height="190" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="WOS99oSeUXOHBTye9fjl-130" source="IvSLJujTTu-2GF4I8JXL-18" target="IvSLJujTTu-2GF4I8JXL-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-179" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-35" value="修改密码" style="swimlane;" parent="WOS99oSeUXOHBTye9fjl-130" vertex="1">
+          <mxGeometry x="928.5" y="361.87" width="281" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-180" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="90" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-181" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="90" y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-182" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-38" value="原密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="35" y="125" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-183" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-39" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-184" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-183">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-40" value="确定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="100.5" y="220" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-185" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-183">
-          <mxGeometry width="50" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="90" y="160" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-186" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-183">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-44" value="新密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="35" y="165" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-187" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-1" value="设置" style="swimlane;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-130">
+          <mxGeometry x="718.5" y="61.870000000000005" width="281" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-188" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-2" value="退出登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-1">
+          <mxGeometry x="100.5" y="104" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-189" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-178">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-3" value="修改密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF33FF;" vertex="1" parent="WOS99oSeUXOHBTye9fjl-1">
+          <mxGeometry x="110.5" y="134" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-190" value="交易记录详情" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-54.5" y="820" width="502.5" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-191" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-192" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-193" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-194" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-195" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-196" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-195">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-197" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-195">
-          <mxGeometry width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-198" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-195">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-200" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-201" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-190">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-203" value="充值记录" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-612.5" y="-110" width="502.5" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-204" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募名称&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="10" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-205" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购份额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="172.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-206" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;认购金额&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="87.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-207" value="需求：&lt;br&gt;1.该列表属于汇总，记录入认购汇总表&lt;br&gt;2.点击列表进入认购单条记录&lt;br&gt;3.查询参数：用户id，页码，页大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="10" y="105" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-208" value="" style="group" vertex="1" connectable="0" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="10" y="80" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-209" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;50&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-208">
-          <mxGeometry x="180" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-210" value="&lt;font color=&quot;#171a1d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募1&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-208">
-          <mxGeometry width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-211" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;usdt&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-208">
-          <mxGeometry x="75" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-212" value="详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="432.5" y="80" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-213" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;私募进度&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="262.5" y="60" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-214" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;tahoma&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;myanmar text&amp;#34; , ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;14/100 USDT&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=1;" vertex="1" parent="IvSLJujTTu-2GF4I8JXL-203">
-          <mxGeometry x="247.5" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="WOS99oSeUXOHBTye9fjl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WOS99oSeUXOHBTye9fjl-130" source="WOS99oSeUXOHBTye9fjl-3" target="IvSLJujTTu-2GF4I8JXL-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
