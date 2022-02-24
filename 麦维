@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T10:13:21.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8WV--B8_Npyuths6zqPy" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T12:24:18.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UC3b9PWssgmws6Slkeh8" version="16.6.2" type="github">
   <diagram id="8THydA5MkrtF2cmSmjin" name="Page-1">
-    <mxGraphModel dx="2064" dy="5359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="5601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,8 +567,8 @@
         <mxCell id="IvSLJujTTu-2GF4I8JXL-7" value="密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
           <mxGeometry x="35" y="125" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-8" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-8" value="密钥" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
+          <mxGeometry x="35" y="75" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IvSLJujTTu-2GF4I8JXL-9" value="登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-4" vertex="1">
           <mxGeometry x="100.5" y="190" width="80" height="25" as="geometry" />
@@ -594,8 +594,8 @@
         <mxCell id="IvSLJujTTu-2GF4I8JXL-18" value="登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
           <mxGeometry x="110.5" y="215" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-215" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-215" value="密钥" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-12" vertex="1">
+          <mxGeometry x="35" y="75" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IvSLJujTTu-2GF4I8JXL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WOS99oSeUXOHBTye9fjl-130" source="IvSLJujTTu-2GF4I8JXL-10" target="IvSLJujTTu-2GF4I8JXL-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -612,8 +612,8 @@
         <mxCell id="IvSLJujTTu-2GF4I8JXL-38" value="原密码" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
           <mxGeometry x="35" y="125" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IvSLJujTTu-2GF4I8JXL-39" value="助记词" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
-          <mxGeometry x="35" y="75" width="50" height="20" as="geometry" />
+        <mxCell id="IvSLJujTTu-2GF4I8JXL-39" value="密钥" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
+          <mxGeometry x="35" y="75" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IvSLJujTTu-2GF4I8JXL-40" value="确定" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IvSLJujTTu-2GF4I8JXL-35" vertex="1">
           <mxGeometry x="100.5" y="220" width="80" height="25" as="geometry" />
