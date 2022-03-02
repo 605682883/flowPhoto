@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T04:59:20.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="q-KkH_4LvpjdAcG1esXV" version="16.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-02T05:00:03.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="s9LFXEEthCeRJyDB7Umj" version="16.6.4" type="github" pages="12">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1552,11 +1552,17 @@
         <mxCell id="YYjJEFBsgc3BWJCY8FKN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YYjJEFBsgc3BWJCY8FKN-1" source="YYjJEFBsgc3BWJCY8FKN-9" target="YYjJEFBsgc3BWJCY8FKN-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YYjJEFBsgc3BWJCY8FKN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YYjJEFBsgc3BWJCY8FKN-1" source="YYjJEFBsgc3BWJCY8FKN-9" target="YYjJEFBsgc3BWJCY8FKN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YYjJEFBsgc3BWJCY8FKN-9" value="子节点创建一个sprite" style="whiteSpace=wrap;html=1;" vertex="1" parent="YYjJEFBsgc3BWJCY8FKN-1">
           <mxGeometry x="110" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YYjJEFBsgc3BWJCY8FKN-11" value="该sprite和相机都绑定到脚本" style="whiteSpace=wrap;html=1;" vertex="1" parent="YYjJEFBsgc3BWJCY8FKN-1">
           <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YYjJEFBsgc3BWJCY8FKN-16" value="sprite的x轴要旋转180°" style="whiteSpace=wrap;html=1;" vertex="1" parent="YYjJEFBsgc3BWJCY8FKN-1">
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
