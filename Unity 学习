@@ -1,1 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-03-12T13:18:04.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.0" etag="CyNssNUH5fTwJjsqw2iI" type="github"><diagram id="v3InXoTfwONWN1Lr1R72">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-14T10:20:40.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="5iHml4tJcxfmO2mjPxyy" version="17.1.0" type="github">
+  <diagram id="v3InXoTfwONWN1Lr1R72" name="Page-1">
+    <mxGraphModel dx="1673" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uCuLP9q79WB9qM3q02GM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-2" target="uCuLP9q79WB9qM3q02GM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-2" value="&lt;span&gt;对象出生&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-3" target="uCuLP9q79WB9qM3q02GM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-3" value="&lt;span&gt;Awake&lt;br&gt;出生时调用，类似构造函数&lt;br&gt;一个对象只会调用一次&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="410" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-4" target="uCuLP9q79WB9qM3q02GM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-4" value="&lt;span&gt;OnEnable&lt;br&gt;依附的GameObject对象每次激活时调用&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="510" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-5" target="uCuLP9q79WB9qM3q02GM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-5" value="&lt;span&gt;Start&lt;br&gt;从自己被创建出来后，第一次帧更新之前调用&lt;br&gt;一个对象只会调用一次&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="580" width="265" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-6" target="uCuLP9q79WB9qM3q02GM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-6" value="&lt;span&gt;FixedUpdate&lt;br&gt;物理帧更新&lt;br&gt;固定间隔时间执行，间隔时间可以设置&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="690" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-7" target="uCuLP9q79WB9qM3q02GM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-7" value="&lt;span&gt;Update&lt;br&gt;逻辑帧更新&lt;br&gt;每帧调用&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="780" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-8" target="uCuLP9q79WB9qM3q02GM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="920" />
+              <mxPoint x="600" y="920" />
+              <mxPoint x="600" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-8" target="uCuLP9q79WB9qM3q02GM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-8" value="&lt;span&gt;LastUpdate&lt;br&gt;每帧执行&lt;br&gt;在Update执行之后调用&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="860" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-16" target="uCuLP9q79WB9qM3q02GM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-16" value="&lt;span&gt;OnDisable&lt;br&gt;依附的GameObject对象每次激活时调用&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="940" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-16" target="uCuLP9q79WB9qM3q02GM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="720" as="sourcePoint" />
+            <mxPoint x="740" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="970" />
+              <mxPoint x="760" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-26" value="只有失活激活时&lt;br&gt;才会调用&lt;br&gt;和循环无关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uCuLP9q79WB9qM3q02GM-19">
+          <mxGeometry x="0.034" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-21" target="uCuLP9q79WB9qM3q02GM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-21" value="&lt;span&gt;OnDestroy&lt;br&gt;对象销毁时调用&lt;br&gt;衣服的GameObject对象被删除时调用&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1010" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-24" value="&lt;span&gt;对象死亡&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-27" target="uCuLP9q79WB9qM3q02GM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-27" target="uCuLP9q79WB9qM3q02GM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-27" value="Object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-28" target="uCuLP9q79WB9qM3q02GM-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-28" target="uCuLP9q79WB9qM3q02GM-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="580" />
+              <mxPoint x="1180" y="660" />
+              <mxPoint x="1181" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-28" value="Component&lt;br&gt;包含(GameObject)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuLP9q79WB9qM3q02GM-29" target="uCuLP9q79WB9qM3q02GM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-29" value="Behaviour" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-30" value="MonoBehaviour" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-34" value="GameObject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-35" value="Transform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuLP9q79WB9qM3q02GM-39" value="自定义脚本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
