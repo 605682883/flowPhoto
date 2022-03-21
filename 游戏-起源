@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T13:05:39.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="9VYApoAlpYFbwDtgfCrp" version="17.1.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-21T13:23:34.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="KohObTHVUZ2VFhMzXK4b" version="17.1.3" type="github" pages="12">
   <diagram id="N8Edi52NSmTYdyOakT1O" name="网络模块">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1664,6 +1664,9 @@
         <mxCell id="roENOTNRQiTzRUy8v8w1-5" value="动态资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
           <mxGeometry x="1840" y="4680" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5zLFXjd2DmEwiznhqY9f-1" source="roENOTNRQiTzRUy8v8w1-11" target="roENOTNRQiTzRUy8v8w1-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="roENOTNRQiTzRUy8v8w1-11" value="开始" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
           <mxGeometry x="2600" y="4810" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1695,6 +1698,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2660" y="4470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5zLFXjd2DmEwiznhqY9f-1" source="roENOTNRQiTzRUy8v8w1-22" target="roENOTNRQiTzRUy8v8w1-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="roENOTNRQiTzRUy8v8w1-22" value="收到开始" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
           <mxGeometry x="2600" y="4032" width="120" height="60" as="geometry" />
@@ -1750,8 +1756,23 @@
         <mxCell id="roENOTNRQiTzRUy8v8w1-48" value="英雄管理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
           <mxGeometry x="2008" y="4520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5zLFXjd2DmEwiznhqY9f-1" source="roENOTNRQiTzRUy8v8w1-56" target="roENOTNRQiTzRUy8v8w1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="roENOTNRQiTzRUy8v8w1-56" value="战斗UI管理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
           <mxGeometry x="2008" y="4600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-66" value="战斗结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
+          <mxGeometry x="2800" y="4032" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5zLFXjd2DmEwiznhqY9f-1" source="roENOTNRQiTzRUy8v8w1-68" target="roENOTNRQiTzRUy8v8w1-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-68" value="战斗结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
+          <mxGeometry x="2800" y="4810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roENOTNRQiTzRUy8v8w1-70" value="还原节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5zLFXjd2DmEwiznhqY9f-1">
+          <mxGeometry x="3000" y="4810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
