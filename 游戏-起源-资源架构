@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T06:35:18.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="c1WkL9TifqBLAcYljMK_" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-10T07:20:17.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Biqh5H42OnHyF9zu-KhA" version="17.4.0" type="github">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="Page-1">
-    <mxGraphModel dx="3685" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2839" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -520,7 +520,7 @@
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-173" value="WinControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="1100" y="4770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-174" value="battlefieldControl.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-174" value="BattlefieldControl.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="1660" y="5130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-175" value="commonUI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
@@ -530,6 +530,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-178" target="kZSZ5ZC3OakZlPsWmHVQ-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-615" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-178" target="kZSZ5ZC3OakZlPsWmHVQ-192">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-178" value="commonUI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
@@ -575,7 +578,7 @@
           <mxGeometry x="2031" y="5125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-192" value="topUI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
-          <mxGeometry x="2031" y="5000" width="120" height="60" as="geometry" />
+          <mxGeometry x="2031" y="4890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-193" value="UIControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="2041" y="5240" width="120" height="60" as="geometry" />
@@ -589,11 +592,14 @@
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-174" target="kZSZ5ZC3OakZlPsWmHVQ-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-612" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-197" target="kZSZ5ZC3OakZlPsWmHVQ-611">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-197" value="bottomUI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="2031" y="5060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-198" value="BattleUIControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
-          <mxGeometry x="2311" y="5170" width="120" height="60" as="geometry" />
+          <mxGeometry x="2240" y="5240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-200" target="kZSZ5ZC3OakZlPsWmHVQ-204">
           <mxGeometry relative="1" as="geometry" />
@@ -848,7 +854,7 @@
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-280" value="battleResourcesControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="1330" y="5390" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-287" value="roadControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-287" value="角色里面得控制" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="1660" y="5190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-577" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-575" target="kZSZ5ZC3OakZlPsWmHVQ-174">
@@ -860,16 +866,45 @@
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-575" value="preLoadControl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
           <mxGeometry x="1439" y="5230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-598" value="BattleConfig.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="1750" y="5390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-604" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-600" target="kZSZ5ZC3OakZlPsWmHVQ-598">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-600" value="common" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="1550" y="5330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-601" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-280" target="kZSZ5ZC3OakZlPsWmHVQ-600">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-579" value="loadControl：把UI和角色绑定，绑定roleid，要确保所有都加载完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="1550" y="5390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-580" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-280" target="kZSZ5ZC3OakZlPsWmHVQ-579">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-605" value="UIControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="2230" y="5030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-606" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-197" target="kZSZ5ZC3OakZlPsWmHVQ-605">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-609" value="&lt;span&gt;HeroCradControl.ts&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="2230" y="5090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-608" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1" source="kZSZ5ZC3OakZlPsWmHVQ-197" target="kZSZ5ZC3OakZlPsWmHVQ-609">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2228.9999999999995" y="5120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-611" value="&lt;span&gt;ScrollViewControl.ts&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="2230" y="5150" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-291" value="pool" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="7205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-292" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZSZ5ZC3OakZlPsWmHVQ-226" target="kZSZ5ZC3OakZlPsWmHVQ-291">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-579" value="loadControl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="6500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-580" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZSZ5ZC3OakZlPsWmHVQ-280" target="kZSZ5ZC3OakZlPsWmHVQ-579">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-583" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZSZ5ZC3OakZlPsWmHVQ-581" target="kZSZ5ZC3OakZlPsWmHVQ-582">
@@ -922,6 +957,18 @@
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-596" value="显示结算" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1810" y="6710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-602" value="roadLoad.ts，加载一次" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="6440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-603" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZSZ5ZC3OakZlPsWmHVQ-600" target="kZSZ5ZC3OakZlPsWmHVQ-602">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-613" value="UIControl.ts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="941" y="6000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-614" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZSZ5ZC3OakZlPsWmHVQ-192" target="kZSZ5ZC3OakZlPsWmHVQ-613">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
