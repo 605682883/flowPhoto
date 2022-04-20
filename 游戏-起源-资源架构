@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T07:40:57.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="mFIdOw2kdCARSWoE059H" version="17.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-20T09:34:24.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="QJF6BT_66F0sVC-tq7fU" version="17.4.2" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3432" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1066,6 +1066,9 @@
         </mxCell>
         <mxCell id="JB5FY0reFzO_OzEwwbpu-11" value="x1&amp;lt;=x2 负角度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="670" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5FY0reFzO_OzEwwbpu-13" value="特效本身要翻转过来,y=-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="150" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
