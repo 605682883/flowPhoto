@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T09:55:34.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="v42AlWUGz8xyKqdqDKUm" version="17.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-20T09:56:03.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2GkyDHyKWfkoIbNuxiYg" version="17.4.2" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3151" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -978,14 +978,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-1" value="场景消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-533" y="2923" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-2" value="面板消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-533" y="3330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-3" value="战斗消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-533" y="3490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-4" value="框架" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="2840" width="1520" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-1" value="场景消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry x="140" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
