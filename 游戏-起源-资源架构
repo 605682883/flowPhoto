@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T08:30:10.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zYgqPCDBwPMKfHgeHSKO" version="17.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-21T08:30:18.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="v5UsFFLMys07Uo5YxtRX" version="17.4.2" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3151" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -993,7 +993,7 @@
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-1" target="uWW-FYFilVR_TcfWzQ5R-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-1" value="大场景消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-1" value="场景消息中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
           <mxGeometry x="300" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-7" value="主场景" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
