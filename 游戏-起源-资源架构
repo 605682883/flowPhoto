@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T07:43:32.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7v6Dv-IPBtXqPioAbVzL" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-22T08:03:28.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jkOQEjQ5tkEJMC760_0r" version="17.4.6" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -900,6 +900,9 @@
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-611" value="&lt;span&gt;ScrollViewControl.ts&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="kZSZ5ZC3OakZlPsWmHVQ-1" vertex="1">
           <mxGeometry x="2230" y="5150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AzOMIA4LFfG_5dRP35QA-1" value="按照类型分布资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="kZSZ5ZC3OakZlPsWmHVQ-1">
+          <mxGeometry x="926" y="235" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZSZ5ZC3OakZlPsWmHVQ-291" value="pool" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="7205" width="120" height="60" as="geometry" />
