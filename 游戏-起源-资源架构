@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T07:20:26.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tJk09ps67XsZ-qEYpZbP" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-22T07:43:12.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="8ir7vSMudhh3V7ntFaxY" version="17.4.6" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1132,26 +1132,38 @@
             <mxPoint x="664" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="diQp216IERfVrGz6A-dA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-1" target="diQp216IERfVrGz6A-dA-2">
+        <mxCell id="diQp216IERfVrGz6A-dA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-1" target="diQp216IERfVrGz6A-dA-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="diQp216IERfVrGz6A-dA-1" value="场景" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+        <mxCell id="diQp216IERfVrGz6A-dA-1" value="场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
           <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="diQp216IERfVrGz6A-dA-2" value="面板" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+        <mxCell id="diQp216IERfVrGz6A-dA-2" value="面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
           <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="diQp216IERfVrGz6A-dA-3" value="UI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+        <mxCell id="diQp216IERfVrGz6A-dA-3" value="UI" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
           <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="diQp216IERfVrGz6A-dA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-2" target="diQp216IERfVrGz6A-dA-3">
+        <mxCell id="diQp216IERfVrGz6A-dA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-2" target="diQp216IERfVrGz6A-dA-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJv5QMrnJBmyCysBPokE-1" value="场景" style="swimlane;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry x="10" y="370" width="460" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sJv5QMrnJBmyCysBPokE-2" value="加载场景" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="sJv5QMrnJBmyCysBPokE-1">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJv5QMrnJBmyCysBPokE-3" value="切换场景" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="sJv5QMrnJBmyCysBPokE-1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-5" value="热更新场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="3230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uWW-FYFilVR_TcfWzQ5R-1" target="uWW-FYFilVR_TcfWzQ5R-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJv5QMrnJBmyCysBPokE-4" value="preScene.active = false;&lt;br&gt;preScene = newScene;&lt;br&gt;newScene.active;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="3345" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
