@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T07:18:55.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4mLv1eSsddBWGT6GaWtO" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-22T07:20:26.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tJk09ps67XsZ-qEYpZbP" version="17.4.6" type="github" pages="3">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -994,55 +994,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-1" value="场景消息中心" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-7" value="主场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-8" value="战场场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-13" target="uWW-FYFilVR_TcfWzQ5R-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-13" value="UI消息中心" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="354" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="854" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-14" value="主场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="434" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="934" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-13" target="uWW-FYFilVR_TcfWzQ5R-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-15" value="战场场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="594" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="1094" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-13" target="uWW-FYFilVR_TcfWzQ5R-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-16" value="热更新进度数值" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="104" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-13" target="uWW-FYFilVR_TcfWzQ5R-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-13" target="uWW-FYFilVR_TcfWzQ5R-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="760.0000000000005" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-19" value="&lt;span&gt;战斗消息中心&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="984" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1484" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-20" value="主场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="984" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="1484" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-19" target="uWW-FYFilVR_TcfWzQ5R-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-22" value="战场场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="1144" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="1644" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-19" target="uWW-FYFilVR_TcfWzQ5R-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-24" value="热更新场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="824" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="1324" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-19" target="uWW-FYFilVR_TcfWzQ5R-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1057,81 +1059,98 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-27" value="&lt;span&gt;面板消息中心&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="1060" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1560" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-28" value="召唤面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="840" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-27" target="uWW-FYFilVR_TcfWzQ5R-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-30" value="战场面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="1400" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1900" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-27" target="uWW-FYFilVR_TcfWzQ5R-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-32" value="热更新面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="680" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1180" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-27" target="uWW-FYFilVR_TcfWzQ5R-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-34" value="战斗面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="1130" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1630" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-36" value="英雄面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="990" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1490" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-38" value="联盟面板" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="1270" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1770" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-40" value="进度条UI" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="264" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="764" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-44" value="&lt;span&gt;系统消息中心&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="426" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="926" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-49" value="网络消息" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="200" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-44" target="uWW-FYFilVR_TcfWzQ5R-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-51" value="游戏消息" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="636" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="1136" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-44" target="uWW-FYFilVR_TcfWzQ5R-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-54" value="接收" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="270" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-49" target="uWW-FYFilVR_TcfWzQ5R-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-58" value="暂停" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="569" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="1069" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-51" target="uWW-FYFilVR_TcfWzQ5R-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-60" value="恢复" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
-          <mxGeometry x="703" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="1203" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-51" target="uWW-FYFilVR_TcfWzQ5R-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-5" value="热更新场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="3100" width="120" height="60" as="geometry" />
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-52" value="发送" style="whiteSpace=wrap;html=1;rounded=1;" parent="uWW-FYFilVR_TcfWzQ5R-4" vertex="1">
+          <mxGeometry x="610" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uWW-FYFilVR_TcfWzQ5R-1" target="uWW-FYFilVR_TcfWzQ5R-5" edge="1">
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="uWW-FYFilVR_TcfWzQ5R-4" source="uWW-FYFilVR_TcfWzQ5R-49" target="uWW-FYFilVR_TcfWzQ5R-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="diQp216IERfVrGz6A-dA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-1" target="diQp216IERfVrGz6A-dA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-52" value="发送" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-166" y="4050" width="120" height="60" as="geometry" />
+        <mxCell id="diQp216IERfVrGz6A-dA-1" value="场景" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uWW-FYFilVR_TcfWzQ5R-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uWW-FYFilVR_TcfWzQ5R-49" target="uWW-FYFilVR_TcfWzQ5R-52" edge="1">
+        <mxCell id="diQp216IERfVrGz6A-dA-2" value="面板" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diQp216IERfVrGz6A-dA-3" value="UI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diQp216IERfVrGz6A-dA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uWW-FYFilVR_TcfWzQ5R-4" source="diQp216IERfVrGz6A-dA-2" target="diQp216IERfVrGz6A-dA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-5" value="热更新场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="3230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uWW-FYFilVR_TcfWzQ5R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uWW-FYFilVR_TcfWzQ5R-1" target="uWW-FYFilVR_TcfWzQ5R-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
