@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T07:52:24.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Yk2Ik2saBXGj5gKUPCLD" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-26T07:54:16.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="4n-1HDgPNqF7Is8VNNtG" version="17.4.6" type="github" pages="4">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1264,7 +1264,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gNp102KI-vxNJfFVtVXM" name="技能指示器方向判断">
-    <mxGraphModel dx="677" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1321,6 +1321,12 @@
         </mxCell>
         <mxCell id="Y2w-LUF5F5J5_RlwNKMv-28" value="-180" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2w-LUF5F5J5_RlwNKMv-29" value="-45" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2w-LUF5F5J5_RlwNKMv-30" value="计算过程，计算角度，然后判断x2&amp;gt;x1则，加上180" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="920" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
