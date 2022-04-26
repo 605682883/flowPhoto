@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T07:06:13.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rz1j_LEhWNL6MD7DF6ch" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-26T07:46:26.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0NOZQpKjU2BaW_R8kvOO" version="17.4.6" type="github" pages="4">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1351,6 +1351,9 @@
         </mxCell>
         <mxCell id="Y2w-LUF5F5J5_RlwNKMv-22" value="特效本身要翻转过来,y=-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="375" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2w-LUF5F5J5_RlwNKMv-23" value="Math.abs(Math.atan2(p2.x - p1.x,p2.y - p1.y)* 180)/ Math.PI&lt;br&gt;p1 = 0,0&lt;br&gt;p2 = 30,30&lt;br&gt;则&lt;br&gt;得到角度是：45&lt;br&gt;p2 = -30,30&lt;br&gt;角度是：45&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="720" width="330" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
