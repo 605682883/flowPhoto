@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T11:28:11.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="y6-1v8eIKnF2V9kHCS6S" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-02T11:30:16.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="m5zUynUpALju91ZcPuD6" version="17.4.6" type="github" pages="6">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3716" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1520,6 +1520,12 @@
         </mxCell>
         <mxCell id="EPALxfeHSwzutqnHOkBA-19" value="60" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="475" y="710" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EPALxfeHSwzutqnHOkBA-20" value="60/40 = 30/x = 30/y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EPALxfeHSwzutqnHOkBA-21" value="x = 30/(60/40) = 20&lt;br&gt;y = 30/(60/40) = 20&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="855" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
