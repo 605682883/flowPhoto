@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T03:11:04.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="i5TGnl2EWZjfGKeN4lTb" version="17.4.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-02T03:11:41.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="brPf9SSeUp6CFcf926MI" version="17.4.6" type="github" pages="5">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3716" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1429,8 +1429,8 @@
         <mxCell id="XJ8KRumtSVxkvkIyltGq-1" value="使用CMD获取到相应得结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XJ8KRumtSVxkvkIyltGq-3" value="&lt;div&gt;Type.prototype.decode = function decode_setup(reader, length) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return this.setup().decode(reader, length); // overrides this method&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; };&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="510" width="390" height="60" as="geometry" />
+        <mxCell id="XJ8KRumtSVxkvkIyltGq-3" value="&lt;div&gt;如果没有对应得decode，则需要安装解码结构&lt;/div&gt;&lt;div&gt;Type.prototype.decode = function decode_setup(reader, length) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return this.setup().decode(reader, length); // overrides this method&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; };&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="505" width="395" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
