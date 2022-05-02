@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T03:22:29.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="R0wo7oNdy5ZxaPRaPUvN" version="17.4.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-02T10:27:21.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hCHY1v5mAe1yYzBr7MA0" version="17.4.6" type="github" pages="6">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3716" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1351,7 +1351,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gNp102KI-vxNJfFVtVXM" name="技能指示器方向判断">
-    <mxGraphModel dx="1178" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1455,6 +1455,23 @@
         </mxCell>
         <mxCell id="XJ8KRumtSVxkvkIyltGq-13" value="传入数据到该对象，然后解码，即可获得json对象" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="4160" width="277.19" height="22.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J7JRjkKwFfX98BqBqA_y" name="Page-6">
+    <mxGraphModel dx="677" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EPALxfeHSwzutqnHOkBA-3" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="650" width="145" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="EPALxfeHSwzutqnHOkBA-1" value="技能指示器，相似三角形" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPALxfeHSwzutqnHOkBA-2" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
