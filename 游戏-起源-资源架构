@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T02:12:20.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wvYFbR4GMM_6TcroAfRE" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-02T02:12:29.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="C9DUyaDjQv83VAgxBgHY" version="17.4.6" type="github" pages="4">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3716" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1203,12 +1203,6 @@
         </mxCell>
         <mxCell id="H2UJFVSOa49aOS7baAti-22" value="cdn" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
           <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="H2UJFVSOa49aOS7baAti-23" value="preScene.active = false;&lt;br&gt;preScene = newScene;&lt;br&gt;newScene.active;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
-          <mxGeometry x="130" y="150" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="H2UJFVSOa49aOS7baAti-24" value="场景队列，每次切换场景，都进行入队，然后可以使用出队进行返回上一场景" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
-          <mxGeometry x="30" y="200" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="H2UJFVSOa49aOS7baAti-25" value="ProtobufCtrl" style="swimlane;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
           <mxGeometry x="470" y="1440" width="460" height="280" as="geometry" />
