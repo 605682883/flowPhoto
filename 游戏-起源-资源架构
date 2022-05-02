@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T02:12:29.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="C9DUyaDjQv83VAgxBgHY" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-02T02:14:09.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="HeGcIC9tezvK8yqJ_Be_" version="17.4.6" type="github" pages="4">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3716" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -977,7 +977,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qy33f8p8-p4Ctx27zT5k" name="框架改版1">
-    <mxGraphModel dx="2005" dy="-1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="-1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1204,6 +1204,12 @@
         <mxCell id="H2UJFVSOa49aOS7baAti-22" value="cdn" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
           <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="H2UJFVSOa49aOS7baAti-32" value="发送" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
+          <mxGeometry x="70" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2UJFVSOa49aOS7baAti-33" value="接收" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-20">
+          <mxGeometry x="240" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="H2UJFVSOa49aOS7baAti-25" value="ProtobufCtrl" style="swimlane;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
           <mxGeometry x="470" y="1440" width="460" height="280" as="geometry" />
         </mxCell>
@@ -1215,6 +1221,15 @@
         </mxCell>
         <mxCell id="H2UJFVSOa49aOS7baAti-30" value="反序列化" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-25">
           <mxGeometry x="280" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2UJFVSOa49aOS7baAti-34" value="音效" style="swimlane;" vertex="1" parent="uWW-FYFilVR_TcfWzQ5R-4">
+          <mxGeometry y="760" width="460" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="H2UJFVSOa49aOS7baAti-36" value="主音效" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-34">
+          <mxGeometry x="160" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2UJFVSOa49aOS7baAti-39" value="远音效队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="H2UJFVSOa49aOS7baAti-34">
+          <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWW-FYFilVR_TcfWzQ5R-5" value="热更新场景" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="3300" width="120" height="60" as="geometry" />
