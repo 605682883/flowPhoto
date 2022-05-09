@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T07:03:45.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="lKN8jJJ75cBhoe2NEGiC" version="18.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-09T07:07:12.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="l-T9mJWDs0TbkH5gJLnF" version="18.0.1" type="github" pages="7">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1576,7 +1576,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="os0h-8FEGJhwZ70hlHdv" name="资源框架改版1">
-    <mxGraphModel dx="2839" dy="-541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="-415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1700,19 +1700,19 @@
         <mxCell id="mBGxxUIwfW-RzaAYHw6t-21" value="main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="470" y="2990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBGxxUIwfW-RzaAYHw6t-27" value="召唤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
+        <mxCell id="mBGxxUIwfW-RzaAYHw6t-27" value="summon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="670" y="2850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBGxxUIwfW-RzaAYHw6t-33" value="英雄" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
+        <mxCell id="mBGxxUIwfW-RzaAYHw6t-33" value="hero" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="670" y="2920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBGxxUIwfW-RzaAYHw6t-37" value="对战" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
+        <mxCell id="mBGxxUIwfW-RzaAYHw6t-37" value="battle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="670" y="2990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBGxxUIwfW-RzaAYHw6t-38" value="联盟" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
+        <mxCell id="mBGxxUIwfW-RzaAYHw6t-38" value="league" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="670" y="3060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBGxxUIwfW-RzaAYHw6t-41" value="市场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
+        <mxCell id="mBGxxUIwfW-RzaAYHw6t-41" value="market" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mBGxxUIwfW-RzaAYHw6t-18">
           <mxGeometry x="670" y="3130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBGxxUIwfW-RzaAYHw6t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mBGxxUIwfW-RzaAYHw6t-18" source="mBGxxUIwfW-RzaAYHw6t-45" target="mBGxxUIwfW-RzaAYHw6t-59">
