@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T13:07:49.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OxOL_rPYtkWzRK3kMCcl" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T13:09:43.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bCQLQW-EY2HwZYI1f6aH" version="19.0.3" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
     <mxGraphModel dx="1185" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,12 @@
         </mxCell>
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-20" value="首发分销&amp;nbsp; 分销比例1，分销比例2，比例为0，表示没有该级分销" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-8">
           <mxGeometry x="300" y="100" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pXgw4DBL9kpeMrpRIMhd-29" value="首发得人需要填写简介，分类&lt;br&gt;然后改该链官方可以修改一次该信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-8">
+          <mxGeometry x="300" y="145" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXgw4DBL9kpeMrpRIMhd-30" value="版税，需要填写一个地址，然后所有版税都自动转入该地址" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-8">
+          <mxGeometry x="300" y="210" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-9" value="认领" style="swimlane;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-2">
           <mxGeometry x="100" y="750" width="200" height="200" as="geometry" />
