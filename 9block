@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T13:05:28.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yeM5JqZWOkmnjAcqc85K" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T13:05:56.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="uyQuxt0FD6N-AvK8A6p0" version="19.0.3" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
     <mxGraphModel dx="1185" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,12 @@
         </mxCell>
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-3" value="后台" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="3920" y="440" width="620" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pXgw4DBL9kpeMrpRIMhd-25" value="搜索过滤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pXgw4DBL9kpeMrpRIMhd-26" value="显示列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
