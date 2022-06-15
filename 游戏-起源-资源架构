@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:26:04.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="d_yKDBAt1NuXALIC-ybr" version="20.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:31:00.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3tRoIuXZTfhsJAOHbhlq" version="20.0.1" type="github" pages="8">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2035,11 +2035,14 @@
         <mxCell id="95i4ZfTts_1Qmn-xBoCz-8" value="可以：看出来，&lt;br&gt;剩余移动得空间为&lt;br&gt;x：1080-756 = 324，&lt;br&gt;y：2400-1680 = 720&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;然后x左右一半为324/2=162&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;然后y左右一半为720/2=360&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="-450" y="959" width="360" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="95i4ZfTts_1Qmn-xBoCz-9" value="原始缩放相机得点位是&lt;br&gt;540,960&lt;br&gt;所以缩放相机缩放0.7倍后，&lt;br&gt;x得最小不显示黑边得点位是540-162=378&lt;br&gt;x得最大不显示黑边得点位是540+162=702&lt;br&gt;y得最小不显示黑边得点位是960-360=600&lt;br&gt;y得最大不显示黑边得点位是960+3360=1320" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-565" y="1340" width="570" height="240" as="geometry" />
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-9" value="原始缩放相机得点位是&lt;br&gt;540,960&lt;br&gt;所以缩放相机缩放0.7倍后，&lt;br&gt;坐标得中心点是540，960&lt;br&gt;x得最小不显示黑边得点位是540-162=378&lt;br&gt;x得最大不显示黑边得点位是540+162=702&lt;br&gt;y得最小不显示黑边得点位是960-360=600&lt;br&gt;y得最大不显示黑边得点位是960+3360=1320" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1320" width="570" height="280" as="geometry" />
         </mxCell>
         <mxCell id="95i4ZfTts_1Qmn-xBoCz-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="890" y="1160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-13" value="点击屏幕点位，UI是以左下角为0，0原点&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="1930" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
