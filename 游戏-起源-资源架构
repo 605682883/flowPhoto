@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:15:57.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="90dYE4YTVOwzM13UAswT" version="20.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:25:43.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="wDDzBwVUYuJkCt-MPxaK" version="20.0.1" type="github" pages="8">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2016,7 +2016,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nhrSgkVEaqowFF8qQ6M3" name="相机缩放计算">
-    <mxGraphModel dx="2844" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2025,6 +2025,18 @@
         </mxCell>
         <mxCell id="95i4ZfTts_1Qmn-xBoCz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="502" y="658" width="756" height="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-6" value="&lt;span style=&quot;font-size: 28px;&quot;&gt;外圈是底图：1080*2400&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="810" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-7" value="&lt;span style=&quot;font-size: 28px;&quot;&gt;内圈是缩放得相机(0.7倍)：756*1680&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="860" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-8" value="可以：看出来，&lt;br&gt;剩余移动得空间为&lt;br&gt;x：1080-756 = 324，&lt;br&gt;y：2400-1680 = 720&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;然后x左右一半为324/2=162&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;然后y左右一半为720/2=360&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="959" width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-9" value="原始缩放相机得点位是&lt;br&gt;540,960&lt;br&gt;所以缩放相机缩放0.7倍后，&lt;br&gt;x得最小不显示黑边得点位是540-162=378&lt;br&gt;x得最大不显示黑边得点位是540+162=702&lt;br&gt;y得最小不显示黑边得点位是960-360=600&lt;br&gt;y得最大不显示黑边得点位是960+3360=1320" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1340" width="570" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
