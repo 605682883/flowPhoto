@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:31:00.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3tRoIuXZTfhsJAOHbhlq" version="20.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-15T08:18:05.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WNcF0krEzk4DUDurPRKG" version="20.0.1" type="github" pages="8">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2016,7 +2016,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nhrSgkVEaqowFF8qQ6M3" name="相机缩放计算">
-    <mxGraphModel dx="4890" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2038,11 +2038,68 @@
         <mxCell id="95i4ZfTts_1Qmn-xBoCz-9" value="原始缩放相机得点位是&lt;br&gt;540,960&lt;br&gt;所以缩放相机缩放0.7倍后，&lt;br&gt;坐标得中心点是540，960&lt;br&gt;x得最小不显示黑边得点位是540-162=378&lt;br&gt;x得最大不显示黑边得点位是540+162=702&lt;br&gt;y得最小不显示黑边得点位是960-360=600&lt;br&gt;y得最大不显示黑边得点位是960+3360=1320" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="-565" y="1320" width="570" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="95i4ZfTts_1Qmn-xBoCz-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1160" width="80" height="80" as="geometry" />
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-13" value="点击屏幕点位，UI是以左下角为0，0原点&lt;br&gt;如果点击得点位是0，0&lt;br&gt;相机没有移动再中间，也就是540，960&lt;br&gt;则UI点位相对地图是：&lt;br&gt;底部高度是：缩放后剩余得距离一半也就是360" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1860" width="590" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="95i4ZfTts_1Qmn-xBoCz-13" value="点击屏幕点位，UI是以左下角为0，0原点&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-515" y="1930" width="520" height="40" as="geometry" />
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-14" value="540，960" style="rhombus;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1458" width="130" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=28;" edge="1" parent="1" source="95i4ZfTts_1Qmn-xBoCz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-18" value="高度360" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;" vertex="1" connectable="0" parent="95i4ZfTts_1Qmn-xBoCz-17">
+          <mxGeometry x="-0.2667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-19" value="宽度162" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;" vertex="1" connectable="0" parent="95i4ZfTts_1Qmn-xBoCz-17">
+          <mxGeometry x="0.1667" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-12" value="0，0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;startArrow=none;" edge="1" parent="1" source="95i4ZfTts_1Qmn-xBoCz-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="2040" as="sourcePoint" />
+            <mxPoint x="1600" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2060" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="790" y="2060" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2060" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-26" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="1523.17" as="sourcePoint" />
+            <mxPoint x="1615" y="1523.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-27" value="960-376+360" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="2230" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-28" value="0,370" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=28;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;" edge="1" parent="1" target="95i4ZfTts_1Qmn-xBoCz-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="2040" as="sourcePoint" />
+            <mxPoint x="1600" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-30" value="162,548" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="95i4ZfTts_1Qmn-xBoCz-31" value="376对应546" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="2360" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
