@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T02:29:42.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Bprk9DEWSAWN0cr95GwA" version="20.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:37:23.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="5bvgxQ6I8sAdCfJNU8iD" version="20.0.1" type="github" pages="9">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2754,8 +2754,8 @@
         <mxCell id="SB3l08S3q5xIJo0PGeSu-204" value="pr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="1370" y="2950" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SB3l08S3q5xIJo0PGeSu-205" value="横向判断：&lt;br&gt;if(py&amp;lt;sy&amp;lt;py+ph &amp;amp;&amp;amp; px-pr-sr&amp;lt;sx&amp;lt;px+pr+sr)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="3615" width="350" height="50" as="geometry" />
+        <mxCell id="SB3l08S3q5xIJo0PGeSu-205" value="横向判断：&lt;br&gt;if(py&amp;lt;sy&amp;lt;py+ph &amp;amp;&amp;amp; px-pr-sr&amp;lt;sx&amp;lt;px+pr+sr)&lt;br&gt;纵向判断：&lt;br&gt;if(px-pr&amp;lt;sx&amp;lt;px+pr &amp;amp;&amp;amp; py-sr&amp;lt;sx&amp;lt;py+ph+sr)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="3595" width="350" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
