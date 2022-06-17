@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T05:09:32.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OIYGWw-e-r7bdRhGLSKV" version="20.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-17T05:09:51.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tG4HxxR3fAWsKAXNvnu2" version="20.0.1" type="github" pages="9">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2090,7 +2090,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9VtDzL00gh8pdM-FZ7Mm" name="技能选中判断">
-    <mxGraphModel dx="1673" dy="-2542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4063" dy="-1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2768,13 +2768,13 @@
         </mxCell>
         <mxCell id="SB3l08S3q5xIJo0PGeSu-209" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;" edge="1" parent="SB3l08S3q5xIJo0PGeSu-207">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-106" y="510" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="sourcePoint" />
             <mxPoint x="894" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SB3l08S3q5xIJo0PGeSu-210" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;" edge="1" parent="SB3l08S3q5xIJo0PGeSu-207">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-96" y="950" as="sourcePoint" />
+            <mxPoint x="200" y="950" as="sourcePoint" />
             <mxPoint x="904" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -2932,7 +2932,7 @@
         </mxCell>
         <mxCell id="SB3l08S3q5xIJo0PGeSu-248" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" edge="1" parent="SB3l08S3q5xIJo0PGeSu-207">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-96" y="431.02000000000044" as="sourcePoint" />
+            <mxPoint x="210" y="431" as="sourcePoint" />
             <mxPoint x="904" y="431.02000000000044" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3083,7 +3083,7 @@
         </mxCell>
         <mxCell id="SB3l08S3q5xIJo0PGeSu-277" value="" style="endArrow=none;html=1;rounded=0;fontSize=28;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" edge="1" parent="SB3l08S3q5xIJo0PGeSu-207">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-86" y="1030" as="sourcePoint" />
+            <mxPoint x="200" y="1030" as="sourcePoint" />
             <mxPoint x="914" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
