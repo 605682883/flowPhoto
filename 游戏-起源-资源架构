@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T04:55:44.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="urERC1_2Nj79fqcmFtTg" version="20.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-20T08:50:03.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Dn-WLkhW0EkCXJbE4vUq" version="20.0.1" type="github" pages="9">
   <diagram id="wEN9W7BLA2HqBhMclQKZ" name="资源框架">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2090,7 +2090,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9VtDzL00gh8pdM-FZ7Mm" name="技能选中判断">
-    <mxGraphModel dx="1422" dy="-2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2188" dy="-2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3506,6 +3506,9 @@
           <mxGeometry x="0.1494" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5R00hPkR0dWQg9yxjoqN-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="SB3l08S3q5xIJo0PGeSu-509">
+          <mxGeometry x="1530" y="1095" width="370" height="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
