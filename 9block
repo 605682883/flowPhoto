@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T13:22:39.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KigYfF_KEvNIjNys_rLo" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T13:23:19.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZqnnM2lIa0plOb-b4Ih7" version="20.0.4" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
     <mxGraphModel dx="1580" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,6 +85,12 @@
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-11" value="帮助中心" style="swimlane;" parent="pXgw4DBL9kpeMrpRIMhd-2" vertex="1">
           <mxGeometry x="490" y="1060" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-7" value="&lt;font face=&quot;等线&quot;&gt;客服&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-11">
+          <mxGeometry x="25" y="80" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-8" value="&lt;font face=&quot;等线&quot;&gt;留言（建议&lt;/font&gt;/意见）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-11">
+          <mxGeometry x="25" y="115" width="120" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-12" value="设置" style="swimlane;startSize=20;" parent="pXgw4DBL9kpeMrpRIMhd-2" vertex="1">
           <mxGeometry x="950" y="1060" width="200" height="200" as="geometry" />
         </mxCell>
@@ -114,6 +120,9 @@
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;滑点设置&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1315" y="1355" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-6" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;Q&amp;amp;&lt;/span&gt;&lt;span&gt;A&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="875" y="1345" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
