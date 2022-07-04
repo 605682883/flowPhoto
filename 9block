@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T13:27:18.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="A1Ub0NjbXUCbPe5e8Z3e" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T13:29:16.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JTuvoQiWdVAE7m9k5HMm" version="20.0.4" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
     <mxGraphModel dx="1580" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,23 +109,14 @@
         <mxCell id="pXgw4DBL9kpeMrpRIMhd-38" value="规定一定时间，使用一种拍卖方式，进行拍卖" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="pXgw4DBL9kpeMrpRIMhd-37" vertex="1">
           <mxGeometry x="-15" y="80" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-12" value="钱包" style="swimlane;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-2">
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-12" value="钱包列表" style="swimlane;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-2">
           <mxGeometry x="100" y="1050" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-13" value="&lt;font face=&quot;等线&quot;&gt;客服&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-12">
-          <mxGeometry x="25" y="80" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-14" value="&lt;font face=&quot;等线&quot;&gt;留言（建议&lt;/font&gt;/意见）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-12">
-          <mxGeometry x="25" y="115" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-15" value="商品详情" style="swimlane;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-2">
-          <mxGeometry x="100" y="1330" width="200" height="200" as="geometry" />
+          <mxGeometry x="100" y="1330" width="300" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-16" value="&lt;font face=&quot;等线&quot;&gt;客服&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-15">
-          <mxGeometry x="25" y="80" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-17" value="&lt;font face=&quot;等线&quot;&gt;留言（建议&lt;/font&gt;/意见）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-15">
-          <mxGeometry x="25" y="115" width="120" height="30" as="geometry" />
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-23" value="缩略图、&lt;br&gt;名称(即Token-ID)、&lt;br&gt;持有人/发行人地址、&lt;br&gt;版税率、&lt;br&gt;单价（最近成交价/地板价）、&lt;br&gt;卖单价（底层即为挂卖合约）、&lt;br&gt;买单列表（底层即为挂买合约）、&lt;br&gt;铸造列表（该NFT符合条件的铸造合约），&lt;br&gt;以及挂卖/挂买功能、&lt;br&gt;属性列表、&lt;br&gt;价格走势和期间均价（全部/近7日/近30日/近1年）、&lt;br&gt;历史交易记录，&lt;br&gt;上述走势和记录均为采用本系统成交的数据。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-15">
+          <mxGeometry y="50" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-18" value="商品列表" style="swimlane;" vertex="1" parent="pXgw4DBL9kpeMrpRIMhd-2">
           <mxGeometry x="467" y="1330" width="253" height="200" as="geometry" />
@@ -159,6 +150,9 @@
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-11" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;智能合约模版&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;Banner&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;Logo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;广告位&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;系列列表/商品列表的人工排序（最多针对前10个）&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;帮助中心内容&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;分销体系查看&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
           <mxGeometry x="70" y="220" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-24" value="切换钱包&lt;br&gt;切换网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1350" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
