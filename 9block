@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T13:29:16.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JTuvoQiWdVAE7m9k5HMm" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T13:32:04.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="p7ftgchvCnKu-SC1LGUX" version="20.0.4" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
     <mxGraphModel dx="1580" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,10 +146,28 @@
           <mxGeometry x="875" y="1345" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-9" value="后台" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="350" y="2280" width="1200" height="530" as="geometry" />
+          <mxGeometry x="350" y="2280" width="1200" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-11" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;智能合约模版&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;Banner&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;Logo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;广告位&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;系列列表/商品列表的人工排序（最多针对前10个）&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;帮助中心内容&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;分销体系查看&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
-          <mxGeometry x="70" y="220" width="290" height="130" as="geometry" />
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-26" value="智能合约模版设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="710" y="140" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-27" value="Banner设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="390" y="140" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-28" value="Logo设置" style="swimlane;startSize=23;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="960" y="140" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-29" value="广告位设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="100" y="140" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-30" value="系列列表/商品列表的人工排序设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="390" y="420" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-31" value="帮助中心内容设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="100" y="420" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-32" value="分销体系查看设置" style="swimlane;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-9">
+          <mxGeometry x="720" y="410" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-24" value="切换钱包&lt;br&gt;切换网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="485" y="1350" width="70" height="40" as="geometry" />
