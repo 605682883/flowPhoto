@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T14:13:01.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HPeG2VOgwfixSNoyNRU8" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T14:16:16.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PiQdD2zwJzARQhpezukB" version="20.0.4" type="github">
   <diagram id="XZVcWi_1k57XmeG6wJq4" name="Page-1">
-    <mxGraphModel dx="1016" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="2050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,7 +503,7 @@
           <mxGeometry x="2930" y="3080" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-234" value="交易（ 买）" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2625" y="1130" width="760" height="1180" as="geometry" />
+          <mxGeometry x="2625" y="1130" width="760" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-262" value="搜索合约" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
           <mxGeometry x="85" y="62.25" width="115" height="45" as="geometry" />
@@ -538,11 +538,26 @@
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-277" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
           <mxGeometry x="215" y="57.61999999999989" width="50" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-278" value="买入成本/NFT：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
+          <mxGeometry x="85" y="360" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-280" value="提交买单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
+          <mxGeometry x="295" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-281" value="买卖深度图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
+          <mxGeometry x="475" y="62" width="275" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-282" value="7日/30日/1年均价蜡烛图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qwEiBttI4X4DpR6nh6Yi-234">
+          <mxGeometry x="120" y="560" width="490" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="qwEiBttI4X4DpR6nh6Yi-260" value="铸造" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3430" y="1130" width="760" height="1180" as="geometry" />
         </mxCell>
-        <mxCell id="qwEiBttI4X4DpR6nh6Yi-261" value="铸造" style="swimlane;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-261" value="首发" style="swimlane;fontColor=#000000;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="4230" y="1130" width="760" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEiBttI4X4DpR6nh6Yi-283" value="空投（认领）" style="swimlane;fontColor=#000000;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="5020" y="1130" width="760" height="1180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
