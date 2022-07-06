@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T12:37:17.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fpe4lW8MNsaimtzcSIkD" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T12:37:31.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tTRBFmV3MkYv1zQDVWHE" version="20.0.4" type="github">
   <diagram id="REW180NoGFZ-mmMNd1vn" name="Page-1">
     <mxGraphModel dx="19" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,13 +137,13 @@
           <mxGeometry x="1140" y="605" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n3707ELWsgWbR277SPKF-2" value="空投" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gjld3cbzGbYmKHsjepiV-26">
-          <mxGeometry x="1140" y="570" width="40" height="40" as="geometry" />
+          <mxGeometry x="1130" y="570" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n3707ELWsgWbR277SPKF-3" value="拍卖" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gjld3cbzGbYmKHsjepiV-26">
           <mxGeometry x="1100" y="605" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n3707ELWsgWbR277SPKF-4" value="首发" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gjld3cbzGbYmKHsjepiV-26">
-          <mxGeometry x="1110" y="660" width="40" height="40" as="geometry" />
+          <mxGeometry x="1100" y="645" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n3707ELWsgWbR277SPKF-6" value="我" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gjld3cbzGbYmKHsjepiV-26">
           <mxGeometry x="1160" y="35" width="50" height="50" as="geometry" />
